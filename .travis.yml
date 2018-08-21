@@ -8,9 +8,11 @@ notifications:
     on_success: change
     on_failure: change
 deploy:
+  on:
+    branch: master
   provider: s3
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_KEY
-  bucket: "rpidanny.alfred"
+  bucket: rpidanny.alfred
   skip_cleanup: true
   upload-dir: alfred
