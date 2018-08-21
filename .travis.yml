@@ -4,7 +4,7 @@ python:
 script:
   - python -m json.tool < movies.json
 after_success:
-  - mkdir deploy && cd deploy
+  - mkdir deploy
   - cp movies.json deploy/
 notifications:
   email:
