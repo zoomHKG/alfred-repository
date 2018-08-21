@@ -17,6 +17,7 @@ deploy:
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_KEY
   bucket: rpidanny.alfred
+  region: $AWS_REGION
   skip_cleanup: true
   upload-dir: alfred
   local_dir: deploy
