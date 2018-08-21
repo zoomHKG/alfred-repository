@@ -3,6 +3,9 @@ python:
   - "3.4"
 script:
   - python -m json.tool < movies.json
+after_success:
+  - mkdir deploy
+  - cp movies.json deploy/
 notifications:
   email:
     on_success: change
@@ -16,4 +19,4 @@ deploy:
   bucket: rpidanny.alfred
   skip_cleanup: true
   upload-dir: alfred
-  default_text_charset: 'utf-8'
+  local_dir: deploy
