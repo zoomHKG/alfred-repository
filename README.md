@@ -1,6 +1,6 @@
 # Alfred Repository [![Build Status](https://travis-ci.org/zoomHKG/alfred-repository.svg?branch=master)](https://travis-ci.org/zoomHKG/alfred-repository)
 
-Movie and notification email repository for [Alfred](https://github.com/zoomHKG/alfred)
+Movie and notification email repository for [Alfred](https://github.com/zoomHKG/alfred-serverless)
 
 ## Adding Movies/Emails to the repository
 
