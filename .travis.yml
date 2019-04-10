@@ -19,5 +19,4 @@ deploy:
   bucket: alfred-dev-data
   region: $AWS_REGION
   skip_cleanup: true
-  upload-dir: ./
   local_dir: deploy
