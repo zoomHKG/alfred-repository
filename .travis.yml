@@ -1,6 +1,6 @@
 language: python
 python:
-  - "3.4"
+  - "3.6"
 script:
   - python -m json.tool < movies.json
 after_success:
